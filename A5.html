@@ -1,0 +1,110 @@
+<!--Will K., 10/24/22, A5-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Assignment 04</title>
+<link rel="stylesheet" href="style01.css">
+</head>
+<body>
+
+<h1><u><i>Welcome to JC Pizzeria!</i></u></h1>
+
+
+<p><b>Please fill out the information below and click SUBMIT when completed!</b></p>
+
+
+<form name="A04">
+
+<h2 style="color:blue">Customer Information</h2>
+<TABLE BORDER=4>
+<TR>
+<TH>Name</TH>
+<TD><input type="text" name="firstName" value="Enter NAME here" size=60></TD>
+</TR>
+<TR>
+<TH>Email</TH>
+<TD><input type="text" name="firstName" value="Enter EMAIL here" size=60></TD>
+</TR>
+<TR>
+<TH>Phone Number</TH>
+<TD><input type="text" name="firstName" value="Enter NUMBER here" size=60></TD>
+</TR>
+<TR>
+<TH>Street Address (For Delivery Only)</TH>
+<TD><input type="text" name="Address" value="Enter ADDRESS here" size=60></TD>
+</TR>
+</TABLE>
+
+<h2 style="color:blue">Pizza Size:</h2>
+<label for="sizes"><b>Choose your Size:</b></label>
+<SELECT NAME="choices" id="Sizes">
+<option>X-Small (4 Cut)</option>
+<option>Small (8 Cut)</option>
+<option>Medium (12 Cut)</option>
+<option>Large (16 Cut)</option>
+<option>X-Large (20 Cut)</option>
+<option>XX-Large (26 Cut)</option>
+</SELECT>
+<br>
+
+<h2 style="color:Blue">Crust Style:</h2>
+<ul>
+<li><INPUT TYPE=RADIO NAME="Crust" VALUE="magic"><b>Thin Crust</b></li>
+<li><INPUT TYPE=RADIO NAME="Crust" VALUE="bus"><b>High-Rise Thick Crust</b></li>
+<li><INPUT TYPE=RADIO NAME="Crust" VALUE="merf"><b>Stuffed Crust</b></li>
+<li><INPUT TYPE=RADIO NAME="Crust" VALUE="magic"><b>Gluten-Free Cauliflower Crust</b></li>
+<li><INPUT TYPE=RADIO NAME="Crust" VALUE="bus"><b>Keto Crust</b></li>
+<li><INPUT TYPE=RADIO NAME="Crust" VALUE="magic"><b>Deep Dish</b></li>
+</ul>
+
+<h2 style="color:blue">Toppings:</h2>
+
+<h3 style="color:green"><u>Cheese:</u></h3>
+<ul>
+<li><INPUT TYPE=CHECKBOX NAME="Shredded Mozarella" VALUE="Shredded Mozarella"><b>Shredded Mozarella</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Ricotta" VALUE="Ricotta"><b>Ricotta</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Ovalini" VALUE="Ovalini"><b>Ovalini</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Parmasean" VALUE="Parmasean"><b>Parmasean</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Blue Cheese" VALUE="Blue Cheese"><b>Blue Cheese</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Feta" VALUE="Feta"><b>Feta</b></li>
+</ul>
+
+<h3 style="color:green"><u>Meats:</u></h3>
+<ul>
+<li><INPUT TYPE=CHECKBOX NAME="Pepperoni" VALUE="Pepperoni"><b>Pepperoni</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Sausage" VALUE="Sausage"><b>Sausage</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Ham" VALUE="Ham"><b>Ham</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Bacon" VALUE="Bacon"><b>Bacon</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Italian Meatball" VALUE="Italian Meatball"><b>Italian Meatball</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Chorizo" VALUE="Chorizo"><b>Chorizo</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Salami" VALUE="Salami"><b>Salami</b></li>
+</ul>
+
+<h3 style="color:green"><u>Veggies & Others:</u></h3>
+<ul>
+<li><INPUT TYPE=CHECKBOX NAME="Pineapple" VALUE="Pineapple"><b>Pineapple</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Tomatoes" VALUE="Tomatoes"><b>Tomatoes</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Jalapenos" VALUE="Jalapenos"><b>Jalapenos</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Mushrooms" VALUE="Mushrooms"><b>Mushrooms</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Spinach" VALUE="Spinach"><b>Spinach</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Peppers" VALUE="Peppers"><b>Peppers</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Black Olives" VALUE="Black Olives"><b>Black Olives</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Basil" VALUE="Basil"><b>Basil</b></li>
+<li><INPUT TYPE=CHECKBOX NAME="Onions" VALUE="Onions"><b>Onions</b></li>
+</ul>
+
+<h2 style="color:blue">Delivery Options:</h2>
+<INPUT TYPE=RADIO NAME="Delivery" VALUE="magic"> <b>Delivery</b>
+<INPUT TYPE=RADIO NAME="Delivery" VALUE="bus"> <b>Pick-Up</b>
+<INPUT TYPE=RADIO NAME="Delivery" VALUE="merf"> <b>Dine-In</b>
+<br>
+<TEXTAREA NAME="comments" ROWS=4 COLS=40>
+Directions for cooking/delivery.
+</TEXTAREA>
+<br>
+
+<input type="submit" value="Submit Order"><br>
+<input type="reset" value="Reset"><br>
+</form>
+</body>
+</html>
