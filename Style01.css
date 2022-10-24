@@ -4,6 +4,11 @@ Color:red;
 Text-align:center;
 }
 
+h2
+{
+Color:white;
+}
+
 body
 {
  background-image: url("pizza2.gif");
@@ -16,6 +21,11 @@ ul
 {
 Color:yellow;
 Font-Family: Merriweather
+}
+
+TR
+{
+Color:orange;
 }
 
 
