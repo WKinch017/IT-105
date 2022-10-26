@@ -14,8 +14,8 @@ body
  background-image: url("pizza2.gif");
  background-repeat: no-repeat;
  background-attachment: fixed;
- background-size:99.5% 100%;
-}
+ background-size:99.5% 100%; 
+} 
 
 ul
 {
