@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>A6</title>
+<script>
+	function glue()
+	{
+	 document.querySelector("#team").value =
+	document.querySelector("#city").value
+	+ " "
+	+ document.querySelector("#mascot").value;
+	}
+	function hey()
+	{
+	document.querySelector("#changeText").innerHTML =
+		"I love " + 
+	document.querySelector("#city").value;
+	}
+	
+</script>
+   </head>
+   <body>
+      <form name=A06>
+
+<h1>
+<div id=changeText>
+Welcome to the page!
+</div></h1>
+
+       City: <input type=text id="city" onchange="hey();"><br><br>
+
+        Mascot:  <input type=text id="mascot" 
+
+			onchange="glue();" ><br><br>
+
+        Favorite Team:  <input type=text id="team"><br><br>
+
+<input type=checkbox name="Wind" value="wind">Wind<br>
+
+<input type=checkbox name="Rain" value="rain">Rain<br>
+
+<input type=checkbox name="Sleet" value="sleet">Sleet<br>
+
+<input type=checkbox name="Snow" value="snow">Snow
+<br>
+        <input type=reset value="clear entries">
+      </form>
+   </body>
+</html>
