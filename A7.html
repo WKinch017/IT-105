@@ -6,10 +6,58 @@
 
 <script>
 
-function makeRed()
-{
-document.querySelector('body')
+var bgToggle=true;
+        function makeRed()
+        {
+           if (bgToggle) {
+             document.querySelector('body').style.backgroundColor="red";
+             bgToggle=false;
+           } else {
+             document.querySelector('body').style.backgroundColor="white";
+             bgToggle=true;
+           }
+        }
 
+
+
+var bgToggle=true;
+        function makeGreen()
+        {
+           if (bgToggle) {
+             document.querySelector('body').style.backgroundColor="green";
+             bgToggle=false;
+           } else {
+             document.querySelector('body').style.backgroundColor="white";
+             bgToggle=true;
+           }
+        }
+
+
+
+
+var bgToggle=true;
+        function makeBlue()
+        {
+           if (bgToggle) {
+             document.querySelector('body').style.backgroundColor="blue";
+             bgToggle=false;
+           } else {
+             document.querySelector('body').style.backgroundColor="white";
+             bgToggle=true;
+           }
+        }
+
+var bgToggle=true;
+        function makeWhite()
+        {
+           if (bgToggle) {
+             document.querySelector('body').style.backgroundColor="white";
+             bgToggle=false;
+           } else {
+             document.querySelector('body').style.backgroundColor="white";
+             bgToggle=true;
+           }
+        }
 
 </script>
 
@@ -59,13 +107,13 @@ document.querySelector("#sumHere").innerHTML = "Your sum is: "+sum;
 <body>
 <h1>Choose a background color</h1>
 <form>
-<input type="submit" value="Make it Red!">
+<input type="button" value="Make it Red" onclick="makeRed();">
 
-<input type="submit" value="Make it Green!">
+<input type="button" value="Make it Green" onclick="makeGreen();">
 
-<input type="submit" value="Make it Blue">
+<input type="button" value="Make it Blue" onclick="makeBlue();">
 
-<input type="submit" value="Back to White">
+<input type="button" value="Back to White" onclick="makeWhite();">
 
 
 
