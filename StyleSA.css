@@ -1,0 +1,35 @@
+ h4
+     {
+       Color:blue;
+       Text-align:center;
+     }
+      
+ h1
+     {
+        Color:blue;
+        Text-align:center;
+     }
+      
+ h3
+     {
+        Color:blue;
+        Text-align:center;
+     }
+
+body
+{
+ background-image: url('dog.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 99.5% 100%; 
+} 
+
+body
+{
+Text-align: center;
+}
+
+body
+{
+Color:red;
+}
